@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: .docker/Dockerfile
+      args:
+        UID: $U_ID
+    volumes:
+      - ..:/app
+    command: ["tail", "-f", "/dev/null"]
