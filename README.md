@@ -27,7 +27,7 @@ The suit plies are in the center of the screen.
 
 If there are no free postions and can't put the card on the suit pile (because are not the following) then game over.
 
-## Curiosities
+## Interesting facts
 
 * The files names has only 8 characters because was a file system restriction.
 * The variables, procedure names, etc... Are in catalan language.
