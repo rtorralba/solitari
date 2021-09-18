@@ -21,8 +21,11 @@ help: ## Show this help message
 up: ## Start the containers
 	U_ID=${UID} docker-compose -f .docker/docker-compose.yml up -d
 
-compile: ## Start the containers
+compile: ## Compile program
 	U_ID=${UID} docker-compose -f .docker/docker-compose.yml exec --user ${UID} app fpc PRINCIPA.PAS
+
+run: ## Run program
+	U_ID=${UID} docker-compose -f .docker/docker-compose.yml exec --user ${UID} app ./PRINCIPA
 
 stop: ## Stop the containers
 	U_ID=${UID} docker-compose -f .docker/docker-compose.yml stop
