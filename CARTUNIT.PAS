@@ -64,7 +64,7 @@ begin
  	 case c.pal of
 		  Ors:     TextColor(YELLOW);
 		  Copes:   TextColor(LIGHTRED);
-		  Espases: TextColor(LIGHTBLUE);
+		  Espases: TextColor(WHITE);
 		  Bastos:  TextColor(GREEN);
 	 end;
          xi:=x;
