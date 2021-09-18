@@ -1,5 +1,5 @@
 # Introduction
-Code developed when I was a student (1999 - 2000). Is a pseudo solitarie game to practice with pascal data structures.
+Code developed when I was a student (1999 - 2000). Is a pseudo solitaire game to practice with pascal data structures.
 
 ## How to run
 
