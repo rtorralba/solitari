@@ -1,5 +1,5 @@
 PROGRAM principal;
- USES cartunit,soliunit,crt,graph;
+ USES cartunit,soliunit,crt;
  VAR
   m:tmazo;
   p:tpila;
