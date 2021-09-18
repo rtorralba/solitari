@@ -29,5 +29,5 @@ If there are no free postions and can't put the card on the suit pile (because a
 
 ## Curiosities
 
-The files names has only 8 characters because was a file system restriction.
-The variables, procedure names, etc... Are in catalan language.
+* The files names has only 8 characters because was a file system restriction.
+* The variables, procedure names, etc... Are in catalan language.
